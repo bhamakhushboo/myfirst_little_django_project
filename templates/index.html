@@ -1,6 +1,24 @@
-<h1>
+<!-- <h1>
     Welcome, {{ name }} <br>
     You are {{ age }}  years old <br>
     You are of {{ nationality }} nationality
 
-</h1>
+</h1> 
+
+<h1>Input your text below</h1>
+
+<form method="post" action="counter">
+    {% csrf_token %}
+    <textarea name="words" rows="25" cols="100"></textarea><br>
+    <input type="submit" />
+</form>
+
+-->
+<!-- {% load static  %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<h1>
+Hey, welcome to my project
+</h1> -->
+
+{{ feature.name }}
